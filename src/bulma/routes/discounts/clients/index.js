@@ -1,4 +1,4 @@
-const ClientDiscountIndex = () => import('@enso-ui/discounts/src/bulma/pages/discounts/clients/generals/Index.vue');
+const ClientDiscountIndex = () => import('@enso-ui/discounts/src/bulma/pages/discounts/clients/Index.vue');
 
 export default {
     name: 'discounts.clients.index',
@@ -6,6 +6,6 @@ export default {
     component: ClientDiscountIndex,
     meta: {
         breadcrumb: 'index',
-        title: 'General Discounts',
+        title: 'Client Discounts',
     },
 };
