@@ -1,7 +1,7 @@
-const SupplierDiscountIndex = () => import('../../../pages/discounts/supplierDiscounts/Index.vue');
+const SupplierDiscountIndex = () => import('@enso-ui/discounts/src/bulma/pages/discounts/suppliers/Index.vue');
 
 export default {
-    name: 'discounts.supplierDiscounts.index',
+    name: 'discounts.suppliers.index',
     path: '',
     component: SupplierDiscountIndex,
     meta: {

@@ -1,7 +1,7 @@
-const ClientDiscountIndex = () => import('../../../pages/discounts/clientDiscounts/Index.vue');
+const ClientDiscountIndex = () => import('@enso-ui/discounts/src/bulma/pages/discounts/clients/Index.vue');
 
 export default {
-    name: 'discounts.clientDiscounts.index',
+    name: 'discounts.clients.index',
     path: '',
     component: ClientDiscountIndex,
     meta: {
