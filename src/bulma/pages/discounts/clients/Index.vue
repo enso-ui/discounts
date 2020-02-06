@@ -4,7 +4,7 @@
             v-if="ready">
             <div class="column is-narrow">
                 <enso-filter class="box raises-on-hover"
-                    :options="modes"
+                    :options="enums.discountTypes._filter()"
                     :name="i18n('Mode')"
                     hide-off
                     v-model="filters.mode"/>
@@ -67,9 +67,6 @@ export default {
 
     computed: {
         ...mapState(['enums']),
-        modes() {
-            return this.enums.discountTypes._filter();
-        },
     },
 
     created() {
