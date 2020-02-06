@@ -1,4 +1,4 @@
-const ClientServiceDiscountEdit = () => import('@enso-ui/discounts/src/bulma/pages/discounts/clients/services/Edit.vue');
+const ClientServiceDiscountEdit = () => import('../../../../pages/discounts/clients/services/Edit.vue');
 
 export default {
     name: 'discounts.clients.services.edit',

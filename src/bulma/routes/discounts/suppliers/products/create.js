@@ -1,4 +1,4 @@
-const SupplierProductDiscountCreate = () => import('@enso-ui/discounts/src/bulma/pages/discounts/suppliers/products/Create.vue');
+const SupplierProductDiscountCreate = () => import('../../../../pages/discounts/suppliers/products/Create.vue');
 
 export default {
     name: 'discounts.suppliers.products.create',
