@@ -1,4 +1,4 @@
-const SupplierDiscountIndex = () => import('@enso-ui/discounts/src/bulma/pages/discounts/suppliers/Index.vue');
+const SupplierDiscountIndex = () => import('../../../pages/discounts/suppliers/Index.vue');
 
 export default {
     name: 'discounts.suppliers.index',

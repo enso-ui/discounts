@@ -1,4 +1,4 @@
-const ClientServiceDiscountCreate = () => import('@enso-ui/discounts/src/bulma/pages/discounts/clients/services/Create.vue');
+const ClientServiceDiscountCreate = () => import('../../../../pages/discounts/clients/services/Create.vue');
 
 export default {
     name: 'discounts.clients.services.create',
